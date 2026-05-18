@@ -70,8 +70,12 @@ func TestStreamChatMapsStatusCodes(t *testing.T) {
 		code   string
 	}{
 		{name: "auth", status: http.StatusUnauthorized, code: "API-001"},
+		{name: "payment", status: http.StatusPaymentRequired, code: "API-002"},
+		{name: "rate limit", status: http.StatusTooManyRequests, code: "API-003"},
 		{name: "model", status: http.StatusNotFound, code: "API-004"},
-		{name: "server", status: http.StatusBadGateway, code: "API-005"},
+		{name: "server 500", status: http.StatusInternalServerError, code: "API-005"},
+		{name: "server 502", status: http.StatusBadGateway, code: "API-005"},
+		{name: "server 503", status: http.StatusServiceUnavailable, code: "API-005"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
