@@ -2,13 +2,13 @@
 
 更新日期：2026-05-17
 
-本文件整理目前 repository 的 Phase 1 狀態。依據來源包含 `docs/woolf-spec.md`、`docs/testing.md`、`README.md`、目前 Go package 結構、既有測試與工作樹狀態。本次任務只更新文件，未修改程式碼。
+本文件整理目前 repository 的 Phase 1 狀態。依據來源包含 `docs/spec.md`、`docs/testing.md`、`README.md`、目前 Go package 結構、既有測試與工作樹狀態。本次任務只更新文件，未修改程式碼。
 
 ## 專案目前目標
 
 WoolfCLI 的目前目標是完成 Phase 1：一個 Go 實作的多模型 AI 審議 CLI/TUI，透過 OpenRouter 調度多位 Agent，讓文字創作者可以載入草稿、執行多輪審議、保存 session、續接、瀏覽並匯出結果。
 
-最高規格來源仍是 `docs/woolf-spec.md`，特別是：
+最高規格來源仍是 `docs/spec.md`，特別是：
 
 - 第 5 章 Must Have：多 Agent 流水線、stance tag、role/preset、TUI、SSE、檔案 ingestion、session、OpenRouter、config、成本顯示與 Markdown export。
 - 第 7 章：CLI、OpenRouter、Agent、Orchestrator、Ingestion、Session、Export、Cost、Config、TUI 技術規格。

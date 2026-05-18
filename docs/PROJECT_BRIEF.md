@@ -2,13 +2,13 @@
 
 更新日期：2026-05-17
 
-本文件根據目前 repository、`docs/woolf-spec.md`、`docs/testing.md`、`README.md` 與現有 Go 程式碼整理。無法由目前檔案直接確認的內容一律標記為「未確認」。
+本文件根據目前 repository、`docs/spec.md`、`docs/testing.md`、`README.md` 與現有 Go 程式碼整理。無法由目前檔案直接確認的內容一律標記為「未確認」。
 
 ## 專案目前目標
 
 WoolfCLI 是面向文字創作者與內容工作者的多模型 AI 審議 CLI/TUI。它不是通用聊天機器人、IDE agent、RAG 平台或 Web app；核心目標是讓使用者投入草稿後，由多位 AI Agent 依序閱讀稿件與前序討論，提出不同立場的回饋，並形成可保存、可續接、可匯出的本機 session。
 
-Phase 1 目標以 `docs/woolf-spec.md` 第 5 章 Must Have 與第 14.1 節驗收矩陣為準：
+Phase 1 目標以 `docs/spec.md` 第 5 章 Must Have 與第 14.1 節驗收矩陣為準：
 
 - 以 Go 實作 CLI/TUI，CLI 使用 Cobra，TUI 使用 Bubble Tea 系列套件。
 - 透過 OpenRouter Chat Completions / SSE 調度多模型 Agent。

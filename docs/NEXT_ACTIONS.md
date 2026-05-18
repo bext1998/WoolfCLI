@@ -9,7 +9,7 @@
 1. 先補齊 TUI Phase 1 最小可驗收主流程。
    - 範圍：`internal/tui`，以及必要的 `internal/orchestrator` 介面串接。
    - 目標：讓使用者能在 TUI 中看到討論、輸入介入內容、觸發基本命令、看見狀態與串流輸出。
-   - 規格依據：`docs/woolf-spec.md` M-05、M-06、M-07、M-16、M-17、7.11、14.1。
+   - 規格依據：`docs/spec.md` M-05、M-06、M-07、M-16、M-17、7.11、14.1。
    - 驗收：基本 keyboard workflow、discussion/input/status 區塊、streaming delta、`/help` 或基本 slash command parser、視窗過小 fallback。
    - 注意：TUI 不應直接寫 session 檔案，session persistence 仍應經 orchestrator/session 邊界處理。
 
