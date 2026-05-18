@@ -80,7 +80,7 @@ go run .\cmd\woolf --config .\tmp\config.toml agents add .\my-agent.yaml
 .\scripts\test.ps1 -Coverage
 ```
 
-更多測試說明見 [docs/testing.md](docs/testing.md)，Phase 1 進度見 [docs/todo.md](docs/todo.md)，產品規格以 [docs/woolf-spec.md](docs/woolf-spec.md) 為準。
+更多測試說明見 [docs/testing.md](docs/testing.md)，Phase 1 進度見 [docs/todo.md](docs/todo.md)，產品規格以 [docs/spec.md](docs/spec.md) 為準。
 
 ## 安全原則
 
