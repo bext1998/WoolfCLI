@@ -12,6 +12,8 @@ Thumbs.db
 # Logs and temporary files
 *.log
 coverage.out
+.gocache/
+.gotmp/
 tmp/
 temp/
 

@@ -190,6 +190,7 @@ func printRole(cmd *cobra.Command, role agents.Role) {
 	if len(role.FocusAreas) > 0 {
 		fmt.Fprintf(cmd.OutOrStdout(), "focus_areas: %s\n", strings.Join(role.FocusAreas, ", "))
 	}
+	fmt.Fprintf(cmd.OutOrStdout(), "system_prompt: %s\n", role.SystemPrompt)
 	if role.ResponseTemplate != "" {
 		fmt.Fprintf(cmd.OutOrStdout(), "response_template: %s\n", role.ResponseTemplate)
 	}
