@@ -1,0 +1,8 @@
+# import config
+importmap golang.org/x/text/transform=vendor/golang.org/x/text/transform
+packagefile encoding/binary=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b131\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile vendor/golang.org/x/text/transform=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b190\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b042\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b041\_pkg_.a

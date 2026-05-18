@@ -75,6 +75,7 @@ func BuiltinPresets() []Preset {
 	return []Preset{
 		{Name: "editorial", DisplayName: "Editorial Review", Roles: []string{"strict-editor", "casual-reader", "structure-analyst"}},
 		{Name: "brainstorm", DisplayName: "Brainstorm", Roles: []string{"advocate", "marketing-eye", "challenger"}},
+		{Name: "critique", DisplayName: "Critique", Roles: []string{"strict-editor", "structure-analyst", "challenger"}},
 		{Name: "review", DisplayName: "Full Review", Roles: []string{"strict-editor", "structure-analyst", "marketing-eye", "challenger"}},
 	}
 }

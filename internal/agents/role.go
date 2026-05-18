@@ -2,8 +2,11 @@ package agents
 
 import (
 	"fmt"
+	"regexp"
 	"strings"
 )
+
+var roleNamePattern = regexp.MustCompile(`^[a-z0-9]+(?:-[a-z0-9]+)*$`)
 
 type Role struct {
 	Name             string   `yaml:"name"`
@@ -19,9 +22,19 @@ type Role struct {
 	FallbackModel    string   `yaml:"fallback_model"`
 }
 
-func (r Role) Validate() error {
-	if strings.TrimSpace(r.Name) == "" {
+func ValidateRoleName(name string) error {
+	if strings.TrimSpace(name) == "" {
 		return fmt.Errorf("CFG-003: role name is required")
+	}
+	if !roleNamePattern.MatchString(name) {
+		return fmt.Errorf("CFG-003: role name %s must be kebab-case", name)
+	}
+	return nil
+}
+
+func (r Role) Validate() error {
+	if err := ValidateRoleName(r.Name); err != nil {
+		return err
 	}
 	if strings.TrimSpace(r.DisplayName) == "" {
 		return fmt.Errorf("CFG-003: role %s display_name is required", r.Name)

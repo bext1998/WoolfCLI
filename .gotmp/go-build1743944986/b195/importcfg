@@ -1,0 +1,7 @@
+# import config
+importmap golang.org/x/text/transform=vendor/golang.org/x/text/transform
+importmap golang.org/x/text/unicode/bidi=vendor/golang.org/x/text/unicode/bidi
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile vendor/golang.org/x/text/transform=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b196\_pkg_.a
+packagefile vendor/golang.org/x/text/unicode/bidi=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b197\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b049\_pkg_.a

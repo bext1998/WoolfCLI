@@ -1,0 +1,11 @@
+# import config
+importmap golang.org/x/net/idna=vendor/golang.org/x/net/idna
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile vendor/golang.org/x/net/idna=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b194\_pkg_.a
+packagefile net=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b186\_pkg_.a
+packagefile net/netip=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b190\_pkg_.a
+packagefile net/url=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b192\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b049\_pkg_.a

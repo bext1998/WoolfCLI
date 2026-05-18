@@ -1,0 +1,7 @@
+# import config
+importmap golang.org/x/net/idna=vendor/golang.org/x/net/idna
+packagefile vendor/golang.org/x/net/idna=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b188\_pkg_.a
+packagefile net=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b113\_pkg_.a
+packagefile net/textproto=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b195\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b069\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b041\_pkg_.a

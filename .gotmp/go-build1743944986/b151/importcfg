@@ -1,0 +1,4 @@
+# import config
+packagefile crypto/internal/fips140/sha3=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b095\_pkg_.a
+packagefile crypto/sha3=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b152\_pkg_.a
+packagefile hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b082\_pkg_.a

@@ -1,0 +1,12 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile internal/fmtsort=D:\AgentCoding\WoolfCLI\.gocache\e3\e3a4e53c2dabe92b25e346f536a52a53396e6b3a26baa14738a2f983cbad2eef-d
+packagefile internal/stringslite=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b033\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile math=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b061\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile reflect=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b060\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b045\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b049\_pkg_.a

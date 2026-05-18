@@ -1,0 +1,27 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b065\_pkg_.a
+packagefile context=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b066\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile flag=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b067\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile internal/race=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b027\_pkg_.a
+packagefile internal/syscall/windows=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b036\_pkg_.a
+packagefile internal/sysinfo=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b072\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile math=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b061\_pkg_.a
+packagefile math/bits=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b032\_pkg_.a
+packagefile math/rand=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b073\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile path/filepath=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b074\_pkg_.a
+packagefile reflect=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b060\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile runtime/debug=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b075\_pkg_.a
+packagefile runtime/trace=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b076\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b045\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b042\_pkg_.a
+packagefile syscall=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b044\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a
+packagefile unicode=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b063\_pkg_.a

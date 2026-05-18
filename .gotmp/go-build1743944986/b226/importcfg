@@ -1,0 +1,13 @@
+# import config
+packagefile crypto/sha256=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b080\_pkg_.a
+packagefile encoding/hex=D:\AgentCoding\WoolfCLI\.gocache\60\60394b593fdfc9e856aa5d26d08c1fcac95a8060f92c5ba7d3d154e1b345aa23-d
+packagefile encoding/json=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b109\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile path/filepath=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b074\_pkg_.a
+packagefile sort=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b115\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a
+packagefile unicode=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b063\_pkg_.a

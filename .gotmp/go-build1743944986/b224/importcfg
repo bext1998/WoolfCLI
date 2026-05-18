@@ -1,0 +1,6 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile github.com/pelletier/go-toml/v2=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b211\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile path/filepath=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b074\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a

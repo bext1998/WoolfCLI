@@ -1,0 +1,10 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b065\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile regexp/syntax=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b121\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b045\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile unicode=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b063\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b049\_pkg_.a

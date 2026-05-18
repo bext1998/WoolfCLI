@@ -1,0 +1,11 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b065\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile go/internal/scannerhooks=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b113\_pkg_.a
+packagefile go/token=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b114\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile path/filepath=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b074\_pkg_.a
+packagefile sort=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b115\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile unicode=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b063\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b049\_pkg_.a

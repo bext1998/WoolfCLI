@@ -1,0 +1,9 @@
+# import config
+packagefile bufio=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b078\_pkg_.a
+packagefile compress/flate=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b124\_pkg_.a
+packagefile encoding/binary=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b108\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile hash/crc32=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b125\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a

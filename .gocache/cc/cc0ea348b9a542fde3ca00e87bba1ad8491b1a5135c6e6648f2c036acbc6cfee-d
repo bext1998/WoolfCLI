@@ -1,0 +1,6 @@
+./builtin.go
+./loader.go
+./preset.go
+./prompt.go
+./registry.go
+./role.go

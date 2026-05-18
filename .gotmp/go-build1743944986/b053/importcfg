@@ -1,0 +1,10 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile internal/bytealg=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b010\_pkg_.a
+packagefile internal/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b054\_pkg_.a
+packagefile internal/stringslite=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b033\_pkg_.a
+packagefile internal/syscall/windows/registry=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b056\_pkg_.a
+packagefile math/bits=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b032\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile syscall=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b044\_pkg_.a

@@ -1,0 +1,18 @@
+# import config
+packagefile bufio=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b067\_pkg_.a
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b068\_pkg_.a
+packagefile crypto/rand=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b134\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile internal/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b060\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a
+packagefile maps=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b125\_pkg_.a
+packagefile math=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b039\_pkg_.a
+packagefile mime=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b198\_pkg_.a
+packagefile mime/quotedprintable=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b200\_pkg_.a
+packagefile net/textproto=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b195\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b049\_pkg_.a
+packagefile path/filepath=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b121\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b047\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b040\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b069\_pkg_.a

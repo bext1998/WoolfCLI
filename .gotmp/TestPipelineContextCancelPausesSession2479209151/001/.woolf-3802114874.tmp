@@ -1,0 +1,18 @@
+{
+  "session_id": "20260508-091500-cancel",
+  "version": "1.0",
+  "status": "active",
+  "created_at": "2026-05-10T06:36:17.1134741Z",
+  "updated_at": "2026-05-10T06:36:17.1134741Z",
+  "agents_config": [],
+  "rounds": [],
+  "interventions": [],
+  "summaries": {},
+  "totals": {
+    "rounds_completed": 0,
+    "total_tokens": 0,
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_cost_usd": 0
+  }
+}

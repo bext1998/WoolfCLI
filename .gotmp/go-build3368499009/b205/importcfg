@@ -1,0 +1,8 @@
+# import config
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile gopkg.in/yaml.v3=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b206\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b049\_pkg_.a
+packagefile path/filepath=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b121\_pkg_.a
+packagefile regexp=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b122\_pkg_.a
+packagefile sort=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b120\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b069\_pkg_.a

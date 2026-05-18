@@ -46,6 +46,7 @@ func TestAgentsAddAndDeleteCustomRole(t *testing.T) {
 	}
 	rolePath := filepath.Join(dir, "custom.yaml")
 	if err := os.WriteFile(rolePath, []byte(`
+note: keep-me
 name: custom
 display_name: Custom
 model: openai/gpt-4o-mini
@@ -65,6 +66,13 @@ system_prompt: Test prompt.
 	}
 	if _, err := os.Stat(filepath.Join(agentsDir, "custom.yaml")); err != nil {
 		t.Fatalf("custom role was not written: %v", err)
+	}
+	written, err := os.ReadFile(filepath.Join(agentsDir, "custom.yaml"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if !strings.Contains(string(written), "note: keep-me") {
+		t.Fatalf("custom role file did not preserve source YAML:\n%s", string(written))
 	}
 
 	cmd = NewRootCommand()
@@ -89,6 +97,21 @@ system_prompt: Test prompt.
 	}
 	if _, err := os.Stat(filepath.Join(agentsDir, "custom.yaml")); !os.IsNotExist(err) {
 		t.Fatalf("custom role still exists, err = %v", err)
+	}
+}
+
+func TestAgentsDeleteRejectsUnsafeName(t *testing.T) {
+	dir := t.TempDir()
+	configPath := filepath.Join(dir, "config.toml")
+	cmd := NewRootCommand()
+	var out bytes.Buffer
+	cmd.SetOut(&out)
+	cmd.SetErr(&out)
+	cmd.SetArgs([]string{"--config", configPath, "agents", "delete", "../custom"})
+
+	err := cmd.Execute()
+	if err == nil || !strings.Contains(err.Error(), "CFG-003") {
+		t.Fatalf("agents delete error = %v, want CFG-003", err)
 	}
 }
 

@@ -1,0 +1,6 @@
+
+[api]
+openrouter_key = "file-key"
+
+[paths]
+sessions_dir = "file-sessions"

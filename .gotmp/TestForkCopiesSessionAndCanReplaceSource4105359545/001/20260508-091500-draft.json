@@ -1,0 +1,40 @@
+{
+  "session_id": "20260508-091500-draft",
+  "version": "1.0",
+  "title": "draft",
+  "status": "completed",
+  "created_at": "2026-05-08T09:15:00Z",
+  "updated_at": "2026-05-08T09:15:00Z",
+  "source": {
+    "type": "md",
+    "path": "old.md",
+    "content": "old"
+  },
+  "agents_config": [
+    {
+      "name": "strict-editor",
+      "display_name": "",
+      "model": "",
+      "stance": "",
+      "order": 0,
+      "color": ""
+    }
+  ],
+  "rounds": [
+    {
+      "round_index": 1,
+      "started_at": "0001-01-01T00:00:00Z",
+      "completed_at": "0001-01-01T00:00:00Z",
+      "responses": null
+    }
+  ],
+  "interventions": [],
+  "summaries": {},
+  "totals": {
+    "rounds_completed": 0,
+    "total_tokens": 0,
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_cost_usd": 0
+  }
+}

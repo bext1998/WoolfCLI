@@ -2,6 +2,7 @@ package orchestrator
 
 import (
 	"context"
+	"strings"
 	"testing"
 	"time"
 
@@ -60,6 +61,12 @@ func TestPipelineRunsAgentsAndPersistsSession(t *testing.T) {
 	}
 	if loaded.Totals.TotalTokens != 18 {
 		t.Fatalf("total tokens = %d", loaded.Totals.TotalTokens)
+	}
+	if !strings.Contains(client.requests[1].Messages[1].Content, "a: model-a response") {
+		t.Fatalf("second agent context does not include first agent response: %q", client.requests[1].Messages[1].Content)
+	}
+	if !strings.Contains(client.requests[2].Messages[1].Content, "model-b response") {
+		t.Fatalf("third agent context does not include second agent response: %q", client.requests[2].Messages[1].Content)
 	}
 }
 

@@ -1,0 +1,5 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b068\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile github.com/pelletier/go-toml/v2/unstable=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b107\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b042\_pkg_.a

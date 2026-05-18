@@ -1,0 +1,9 @@
+./cmap.go
+./encoder.go
+./extractor.go
+./lexer.go
+./markdown.go
+./parser.go
+./stream.go
+./text.go
+./xref.go

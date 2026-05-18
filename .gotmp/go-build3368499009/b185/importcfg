@@ -1,0 +1,6 @@
+# import config
+packagefile encoding/asn1=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b158\_pkg_.a
+packagefile encoding/hex=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b099\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile math/big=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b138\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b059\_pkg_.a

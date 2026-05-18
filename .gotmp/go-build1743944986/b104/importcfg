@@ -1,0 +1,8 @@
+# import config
+packagefile crypto/fips140=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b105\_pkg_.a
+packagefile crypto/internal/fips140/drbg=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b100\_pkg_.a
+packagefile crypto/internal/fips140/sha256=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b091\_pkg_.a
+packagefile crypto/internal/fips140/sha3=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b095\_pkg_.a
+packagefile crypto/internal/fips140/sha512=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b098\_pkg_.a
+packagefile hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b082\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a

@@ -1,0 +1,25 @@
+{
+  "session_id": "20260510-063615-chapter-3",
+  "version": "1.0",
+  "title": "Chapter 3",
+  "status": "active",
+  "created_at": "2026-05-10T06:36:15.0985158Z",
+  "updated_at": "2026-05-10T06:36:15.1055118Z",
+  "source": {
+    "type": "file",
+    "path": "D:\\AgentCoding\\WoolfCLI\\.gotmp\\TestCreateSaveLoadAndList304401871\\001\\chapter3.md",
+    "content_hash": "b049f9f7b22f1061f8806b203618e9e4b147ef86c2bb47efe542a89697836b55",
+    "content_preview": "# Chapter 3\n\nThis is a draft."
+  },
+  "agents_config": [],
+  "rounds": [],
+  "interventions": [],
+  "summaries": {},
+  "totals": {
+    "rounds_completed": 0,
+    "total_tokens": 0,
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_cost_usd": 0
+  }
+}

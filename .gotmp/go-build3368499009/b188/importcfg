@@ -1,0 +1,11 @@
+# import config
+importmap golang.org/x/text/secure/bidirule=vendor/golang.org/x/text/secure/bidirule
+importmap golang.org/x/text/unicode/bidi=vendor/golang.org/x/text/unicode/bidi
+importmap golang.org/x/text/unicode/norm=vendor/golang.org/x/text/unicode/norm
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile vendor/golang.org/x/text/secure/bidirule=D:\AgentCoding\WoolfCLI\.gocache\b2\b2a16152fb81a86cd4e8270e369bb0ef26043883e10f27dd8d945709d21af3c3-d
+packagefile vendor/golang.org/x/text/unicode/bidi=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b191\_pkg_.a
+packagefile vendor/golang.org/x/text/unicode/norm=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b194\_pkg_.a
+packagefile math=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b039\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b069\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b041\_pkg_.a

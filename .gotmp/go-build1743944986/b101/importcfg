@@ -1,0 +1,5 @@
+# import config
+packagefile crypto/internal/fips140deps/time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b102\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile math/bits=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b032\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b042\_pkg_.a

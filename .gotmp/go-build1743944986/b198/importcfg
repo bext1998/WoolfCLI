@@ -1,0 +1,9 @@
+# import config
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile log/internal=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b199\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b042\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a

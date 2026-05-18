@@ -1,0 +1,5 @@
+./client.go
+./errors.go
+./models.go
+./ratelimit.go
+./stream.go

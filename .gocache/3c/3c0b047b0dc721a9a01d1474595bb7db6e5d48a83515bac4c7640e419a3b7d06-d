@@ -1,0 +1,14 @@
+# test log
+getenv GOTMPDIR
+open C:\Users\tiger\AppData\Local\Temp\TestLoadAppliesEnvironmentOverrides3753353193\001\config.toml
+getenv OPENROUTER_API_KEY
+getenv WOOLF_SESSIONS_DIR
+open C:\Users\tiger\AppData\Local\Temp\TestLoadAppliesEnvironmentOverrides3753353193\001\config.toml
+getenv OPENROUTER_API_KEY
+getenv WOOLF_SESSIONS_DIR
+getenv USERPROFILE
+getenv APPDATA
+getenv LOCALAPPDATA
+getenv USERPROFILE
+getenv APPDATA
+open C:\Users\tiger\AppData\Local\Temp

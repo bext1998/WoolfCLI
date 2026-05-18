@@ -1,0 +1,6 @@
+# import config
+packagefile crypto/internal/fips140/hkdf=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b165\_pkg_.a
+packagefile crypto/internal/fips140hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b154\_pkg_.a
+packagefile crypto/internal/fips140only=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b095\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b073\_pkg_.a

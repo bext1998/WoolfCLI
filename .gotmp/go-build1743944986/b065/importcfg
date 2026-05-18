@@ -1,0 +1,8 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile internal/bytealg=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b010\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile iter=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b047\_pkg_.a
+packagefile math/bits=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b032\_pkg_.a
+packagefile unicode=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b063\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b049\_pkg_.a

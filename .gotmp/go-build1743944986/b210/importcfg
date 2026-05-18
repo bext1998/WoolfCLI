@@ -1,0 +1,15 @@
+# import config
+importmap golang.org/x/net/http/httpguts=vendor/golang.org/x/net/http/httpguts
+importmap golang.org/x/net/http2/hpack=vendor/golang.org/x/net/http2/hpack
+packagefile context=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b066\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile vendor/golang.org/x/net/http/httpguts=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b193\_pkg_.a
+packagefile vendor/golang.org/x/net/http2/hpack=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b203\_pkg_.a
+packagefile net/http/httptrace=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b207\_pkg_.a
+packagefile net/textproto=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b201\_pkg_.a
+packagefile net/url=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b192\_pkg_.a
+packagefile sort=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b115\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a

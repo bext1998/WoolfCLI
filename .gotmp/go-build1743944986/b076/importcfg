@@ -1,0 +1,11 @@
+# import config
+packagefile context=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b066\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile internal/trace/tracev2=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b034\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b045\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b042\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a

@@ -1,0 +1,9 @@
+# import config
+importmap golang.org/x/crypto/cryptobyte/asn1=vendor/golang.org/x/crypto/cryptobyte/asn1
+packagefile encoding/asn1=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b158\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile vendor/golang.org/x/crypto/cryptobyte/asn1=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b160\_pkg_.a
+packagefile math/big=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b138\_pkg_.a
+packagefile reflect=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b037\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b059\_pkg_.a

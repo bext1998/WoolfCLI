@@ -1,0 +1,14 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b068\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile go/ast=D:\AgentCoding\WoolfCLI\.gocache\7a\7a83f44bd69b656b75cc14158f7cf0d85a6eb4811d48a2cd960c7888d6e3443c-d
+packagefile go/build/constraint=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b228\_pkg_.a
+packagefile go/internal/scannerhooks=D:\AgentCoding\WoolfCLI\.gocache\17\17862264960967b9534c0a69e9877f3ae8659e001f37b6056781943899720547-d
+packagefile go/scanner=D:\AgentCoding\WoolfCLI\.gocache\0a\0aec55f719a724bdd931fe9d00c8a9516c9e905a5e0eb622c934372e750ad24c-d
+packagefile go/token=D:\AgentCoding\WoolfCLI\.gocache\d5\d59dbc839db4824c43abe43d91077c6e74c6a2b2a0ed9fc2601ee4d0e75f7af8-d
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a
+packagefile io/fs=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b057\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b049\_pkg_.a
+packagefile path/filepath=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b121\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b069\_pkg_.a

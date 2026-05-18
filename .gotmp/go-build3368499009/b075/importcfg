@@ -1,0 +1,10 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b068\_pkg_.a
+packagefile crypto/internal/fips140/aes=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b076\_pkg_.a
+packagefile crypto/internal/fips140/aes/gcm=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b090\_pkg_.a
+packagefile crypto/internal/fips140/alias=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b079\_pkg_.a
+packagefile crypto/internal/fips140only=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b095\_pkg_.a
+packagefile crypto/subtle=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b097\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile internal/byteorder=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b012\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a

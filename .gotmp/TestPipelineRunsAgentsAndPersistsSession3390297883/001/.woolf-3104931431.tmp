@@ -1,0 +1,19 @@
+{
+  "session_id": "20260510-063615-draft",
+  "version": "1.0",
+  "title": "draft",
+  "status": "active",
+  "created_at": "2026-05-10T06:36:15.3911548Z",
+  "updated_at": "2026-05-10T06:36:15.3916951Z",
+  "agents_config": [],
+  "rounds": [],
+  "interventions": [],
+  "summaries": {},
+  "totals": {
+    "rounds_completed": 0,
+    "total_tokens": 0,
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_cost_usd": 0
+  }
+}

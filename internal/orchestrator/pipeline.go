@@ -3,7 +3,6 @@ package orchestrator
 import (
 	"context"
 	"fmt"
-	"strings"
 	"time"
 
 	"woolf/internal/agents"
@@ -16,8 +15,9 @@ type ChatClient interface {
 }
 
 type Pipeline struct {
-	Client ChatClient
-	Store  session.Store
+	Client         ChatClient
+	Store          session.Store
+	ContextBuilder ContextBuilder
 }
 
 type Options struct {
@@ -106,7 +106,7 @@ func (p Pipeline) run(ctx context.Context, sess *session.Session, opts Options, 
 			}
 			req := openrouter.ChatRequest{
 				Model:       role.Model,
-				Messages:    buildMessages(role, *sess, roundIndex),
+				Messages:    p.ContextBuilder.Build(role, *sess, roundIndex),
 				Temperature: role.Temperature,
 				MaxTokens:   role.MaxTokens,
 			}
@@ -191,45 +191,6 @@ func ensureAgentConfig(sess *session.Session, roles []agents.Role) {
 			Order:       i + 1,
 			Color:       role.Color,
 		})
-	}
-}
-
-func buildMessages(role agents.Role, sess session.Session, roundIndex int) []openrouter.ChatMessage {
-	var user strings.Builder
-	user.WriteString("Review the following draft in your assigned role. Provide concrete, actionable feedback.\n\n")
-	if sess.Source != nil {
-		content := sess.Source.Content
-		if content == "" {
-			content = sess.Source.ContentPreview
-		}
-		user.WriteString("## Draft\n")
-		user.WriteString(content)
-		user.WriteString("\n\n")
-	}
-	if len(sess.Interventions) > 0 {
-		user.WriteString("## User Interventions\n")
-		for _, intervention := range sess.Interventions {
-			user.WriteString("- ")
-			user.WriteString(intervention.Content)
-			user.WriteByte('\n')
-		}
-		user.WriteByte('\n')
-	}
-	user.WriteString("## Previous Discussion\n")
-	for _, round := range sess.Rounds {
-		if round.RoundIndex > roundIndex {
-			continue
-		}
-		for _, response := range round.Responses {
-			user.WriteString(response.AgentName)
-			user.WriteString(": ")
-			user.WriteString(response.Content)
-			user.WriteString("\n\n")
-		}
-	}
-	return []openrouter.ChatMessage{
-		{Role: "system", Content: role.SystemPrompt},
-		{Role: "user", Content: user.String()},
 	}
 }
 

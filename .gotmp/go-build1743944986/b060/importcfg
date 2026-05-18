@@ -1,0 +1,17 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile internal/abi=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b005\_pkg_.a
+packagefile internal/bytealg=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b010\_pkg_.a
+packagefile internal/goarch=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b006\_pkg_.a
+packagefile internal/race=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b027\_pkg_.a
+packagefile internal/runtime/maps=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b024\_pkg_.a
+packagefile internal/runtime/sys=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b023\_pkg_.a
+packagefile internal/strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b031\_pkg_.a
+packagefile internal/unsafeheader=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b008\_pkg_.a
+packagefile iter=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b047\_pkg_.a
+packagefile math=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b061\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile unicode=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b063\_pkg_.a
+packagefile unicode/utf8=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b049\_pkg_.a

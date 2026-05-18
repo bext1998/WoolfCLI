@@ -1,0 +1,16 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b065\_pkg_.a
+packagefile encoding/base64=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b110\_pkg_.a
+packagefile encoding/csv=D:\AgentCoding\WoolfCLI\.gocache\94\941a9545fe35d440d74dc02a27aa3e6f7e702c3c3aa0ea0331f5ba53e094f5e7-d
+packagefile encoding/hex=D:\AgentCoding\WoolfCLI\.gocache\60\60394b593fdfc9e856aa5d26d08c1fcac95a8060f92c5ba7d3d154e1b345aa23-d
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile flag=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b067\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile net=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b186\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile reflect=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b060\_pkg_.a
+packagefile sort=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b115\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a

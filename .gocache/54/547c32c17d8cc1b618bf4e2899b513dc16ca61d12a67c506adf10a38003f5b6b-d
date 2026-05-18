@@ -1,0 +1,12 @@
+./agents.go
+./config.go
+./delete.go
+./export.go
+./fork.go
+./init.go
+./list.go
+./models.go
+./resume.go
+./root.go
+./show.go
+./start.go

@@ -1,0 +1,6 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile internal/syscall/windows/sysdll=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b038\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile syscall=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b044\_pkg_.a
+packagefile unicode/utf16=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b048\_pkg_.a

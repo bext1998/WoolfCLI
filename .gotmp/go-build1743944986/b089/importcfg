@@ -1,0 +1,7 @@
+# import config
+packagefile crypto/internal/fips140=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b086\_pkg_.a
+packagefile crypto/internal/fips140/hmac=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b090\_pkg_.a
+packagefile crypto/internal/fips140/sha256=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b091\_pkg_.a
+packagefile crypto/internal/fips140deps/byteorder=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b092\_pkg_.a
+packagefile crypto/internal/fips140deps/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b087\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a

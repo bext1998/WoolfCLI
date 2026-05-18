@@ -1,0 +1,7 @@
+# import config
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b002\_pkg_.a
+packagefile reflect=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b060\_pkg_.a
+packagefile testing=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b064\_pkg_.a
+packagefile testing/internal/testdeps=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b077\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile woolf/internal/agents=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b230\_pkg_.a

@@ -1,0 +1,19 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile internal/bytealg=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b010\_pkg_.a
+packagefile internal/filepathlite=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b035\_pkg_.a
+packagefile internal/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b054\_pkg_.a
+packagefile internal/poll=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b057\_pkg_.a
+packagefile internal/strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b031\_pkg_.a
+packagefile internal/stringslite=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b033\_pkg_.a
+packagefile internal/syscall/execenv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b058\_pkg_.a
+packagefile internal/syscall/windows=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b036\_pkg_.a
+packagefile internal/testlog=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b059\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile io/fs=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b050\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b009\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b045\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b040\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b042\_pkg_.a
+packagefile syscall=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b044\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a

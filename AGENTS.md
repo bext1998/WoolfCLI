@@ -148,7 +148,12 @@ Woolf 是「面向文字創作者與內容工作者的多模型 AI 審議 CLI/TU
 ## 8. CLI/TUI 行為要求
 
 - CLI 命令必須符合規格附錄與 README 已公開的命令面。
+- 目前 root CLI 以 `internal/cli/root.go` 為準，已實作 `init`、`start`、`resume`、`list`、`show`、`export`、`fork`、`delete`、`agents`、`config`、`models`；更新 `AGENTS.md`、README 或測試時不得憑空加入不存在的指令。
+- `agents` 目前已實作 `list`、`show <name>`、`add <role-yaml>`、`delete <name>`、`validate [role-yaml...]`，以及 `agents preset list|show <name>`；涉及 agent 管理流程時應以這組命令面為依據。
+- `config` 目前已實作 `show`、`reset`、`edit`；`models` 目前僅輸出 models cache 路徑，`--pricing` 只顯示占位訊息，不能在文件或流程說明中描述成已完成的 pricing 功能。
 - 需要新增或修改命令時，必須同步更新 help、測試與必要文件。
+- `start` 的實際流程是：載入 config 與 runtime 目錄、套用預設 preset / rounds、必要時 ingestion `--draft`、建立 session、執行 orchestrator pipeline，並輸出 agent started / finished 與 session done 事件；相關修改應沿用這條流程與輸出節點。
+- `export` 目前 Phase 1 只支援 `--format md`；若工作涉及匯出行為，不可把 PDF 匯出當成已落地功能。TODO：若未來實作 PDF export，需同步更新本檔、README 與測試。
 - TUI 必須鍵盤友善，支援長文輸入與串流輸出，不可讓 5000 字輸入明顯卡頓。
 - TUI 畫面不應暴露敏感資訊。
 - `/start`、`/next`、`/end`、`/pause`、`/focus`、`/add-file`、`/skip`、`/summarize`、`/export`、`/agents`、`/status`、`/cost`、`/help`、`/quit` 等行為需依規格保持一致。
@@ -180,6 +185,12 @@ go vet ./...
 .\scripts\test.ps1 -Coverage
 ```
 
+具體工作流補充：
+
+- `.\scripts\test.ps1` 會先執行 `go mod download`，預設再跑 `go test ./...`；`-Coverage` 會改跑 coverage 並輸出 `coverage.out` 摘要，`-Race` 與 `-Vet` 會追加對應檢查。
+- 在支援 `make` 的 shell 中，可使用 `make test`、`make test-vet`、`make test-race`、`make test-cover`；更新文件時應與 `Makefile`、`docs/testing.md` 保持一致。
+- 現行 CI 依 `docs/testing.md` 與 repo 設定，至少覆蓋 Ubuntu 與 Windows 的 `go mod download`、`go test ./...`、`go vet ./...`；涉及測試流程描述時，不可把未存在的 CI job 當成事實。
+
 測試策略：
 
 - CLI：命令存在性、參數解析、錯誤輸出、無 API key 情境。
@@ -190,6 +201,7 @@ go vet ./...
 - Ingestion：md/txt/pdf 成功與失敗路徑。
 - Exporter：Markdown/PDF 輸出格式與錯誤處理。
 - Cost：token 與費用估算誤差控制。
+- Smoke coverage 目前已有明確對象：`internal/cli/root_test.go` 驗證 root command surface，`start` 測試使用 fake client 走 orchestrator，config 測試覆蓋 env override 與 API key masking，OpenRouter 測試覆蓋 SSE / 429 / 5xx，orchestrator 測試覆蓋 persistence、cancellation、stream error 與 context propagation。
 
 若無法執行測試，最終回報必須說明原因、未驗證風險與建議補驗方式。
 

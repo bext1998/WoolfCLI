@@ -17,6 +17,7 @@ type Client struct {
 	APIKey     string
 	HTTPClient *http.Client
 	MaxRetries int
+	RetrySleep func(time.Duration)
 }
 
 type ChatMessage struct {
@@ -88,10 +89,11 @@ func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan Stream
 }
 
 func (c *Client) doWithRetry(ctx context.Context, body []byte) (*http.Response, error) {
-	attempts := c.MaxRetries + 1
-	if attempts < 1 {
-		attempts = 1
+	maxRetries := c.MaxRetries
+	if maxRetries <= 0 {
+		maxRetries = 3
 	}
+	attempts := maxRetries + 1
 	var lastErr error
 	for attempt := 0; attempt < attempts; attempt++ {
 		resp, err := c.do(ctx, body)
@@ -108,10 +110,18 @@ func (c *Client) doWithRetry(ctx context.Context, body []byte) (*http.Response, 
 			return resp, nil
 		}
 		if attempt+1 < attempts {
-			time.Sleep(retryDelay(resp, attempt))
+			c.sleep(retryDelay(resp, attempt))
 		}
 	}
 	return nil, lastErr
+}
+
+func (c *Client) sleep(delay time.Duration) {
+	if c.RetrySleep != nil {
+		c.RetrySleep(delay)
+		return
+	}
+	time.Sleep(delay)
 }
 
 func (c *Client) do(ctx context.Context, body []byte) (*http.Response, error) {

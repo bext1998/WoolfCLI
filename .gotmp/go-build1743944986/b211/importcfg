@@ -1,0 +1,19 @@
+# import config
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b065\_pkg_.a
+packagefile encoding=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b068\_pkg_.a
+packagefile encoding/json=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b109\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile github.com/pelletier/go-toml/v2/internal/characters=D:\AgentCoding\WoolfCLI\.gocache\de\de1321aa958b34a2c2fc041af0c31307aae78117737568e8490830b485f1c374-d
+packagefile github.com/pelletier/go-toml/v2/internal/danger=D:\AgentCoding\WoolfCLI\.gocache\c7\c72854b7a85fc3a1404bddf4fef42951ebe91f900e3cadafa6abdfce9a9141b1-d
+packagefile github.com/pelletier/go-toml/v2/internal/tracker=D:\AgentCoding\WoolfCLI\.gocache\f5\f506596d24b0969cbd184ba5233dbf41c66534761c339b6f2fe40df800d98bd3-d
+packagefile github.com/pelletier/go-toml/v2/unstable=D:\AgentCoding\WoolfCLI\.gocache\53\535e2812b0d5d20baa7c19358469c56df50e9ed56e3f0fe4fc37c99c374ba5de-d
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile math=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b061\_pkg_.a
+packagefile reflect=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b060\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b045\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b062\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b042\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a
+packagefile unicode=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b063\_pkg_.a

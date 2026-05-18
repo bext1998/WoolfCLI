@@ -1,0 +1,7 @@
+# import config
+packagefile crypto/internal/boring=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b083\_pkg_.a
+packagefile crypto/internal/fips140/hmac=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b090\_pkg_.a
+packagefile crypto/internal/fips140hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b151\_pkg_.a
+packagefile crypto/internal/fips140only=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b104\_pkg_.a
+packagefile crypto/subtle=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b106\_pkg_.a
+packagefile hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b082\_pkg_.a

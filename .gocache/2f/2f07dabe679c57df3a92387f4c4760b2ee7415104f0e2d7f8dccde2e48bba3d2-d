@@ -1,0 +1,5 @@
+./discussion.go
+./input.go
+./preview.go
+./session_browser.go
+./status.go

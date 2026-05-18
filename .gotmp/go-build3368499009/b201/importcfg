@@ -1,0 +1,8 @@
+# import config
+packagefile context=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b070\_pkg_.a
+packagefile crypto/tls=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b140\_pkg_.a
+packagefile internal/nettrace=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b115\_pkg_.a
+packagefile net=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b113\_pkg_.a
+packagefile net/textproto=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b195\_pkg_.a
+packagefile reflect=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b037\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b059\_pkg_.a

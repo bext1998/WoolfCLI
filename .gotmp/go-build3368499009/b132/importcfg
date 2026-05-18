@@ -1,0 +1,7 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b073\_pkg_.a
+packagefile internal/byteorder=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b012\_pkg_.a
+packagefile internal/cpu=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b011\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b042\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b044\_pkg_.a

@@ -1,0 +1,6 @@
+
+name: custom
+display_name: Custom
+model: openai/gpt-4o-mini
+stance: neutral
+system_prompt: Test prompt.

@@ -1,0 +1,6 @@
+# import config
+packagefile crypto/internal/boring=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b074\_pkg_.a
+packagefile crypto/internal/fips140/drbg=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b091\_pkg_.a
+packagefile crypto/internal/randutil=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b136\_pkg_.a
+packagefile internal/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b060\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a

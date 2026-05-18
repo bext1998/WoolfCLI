@@ -1,0 +1,10 @@
+# import config
+packagefile bufio=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b078\_pkg_.a
+packagefile bytes=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b065\_pkg_.a
+packagefile context=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b066\_pkg_.a
+packagefile encoding/json=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b109\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b069\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b051\_pkg_.a
+packagefile net/http=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b129\_pkg_.a
+packagefile strings=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b071\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build1743944986\b053\_pkg_.a

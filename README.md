@@ -1,73 +1,95 @@
 # Woolf
 
-Woolf 是一套面向文字創作者與內容工作者的多模型 AI 審議 CLI/TUI。它透過 OpenRouter API 調度多個 AI Agent，讓不同角色依序閱讀稿件、提出觀點、互相回應與辯駁，協助使用者取得更立體的創作回饋。
+Woolf 是面向文字創作者與內容工作者的多模型 AI 審議 CLI/TUI。專案目標是透過 OpenRouter API 調度多個 AI Agent，讓不同角色依序閱讀原稿、回應前序觀點，並把討論保存成可續接、可查詢、可匯出的 session。
 
-名稱取自 Virginia Woolf 與布魯姆斯伯里文學沙龍的傳統：一群作家、藝術家定期聚會，互相批評、激辯與啟發。WoolfCLI 的目標，是把這種多視角審議帶進終端機。
+目前仍在 Phase 1 開發中。CLI、session、agents、OpenRouter 串流、orchestrator 與基礎 ingestion 已有可測骨架；TUI、PDF Phase 1 品質、成本估算與完整匯出流程仍在完善中。
 
-## 核心概念
+## 目前可用能力
 
-單一 AI 通常只會給出一種聲音。Woolf 讓使用者同時聽見嚴格編輯、一般讀者、結構分析師、支持者與挑戰者等不同視角，最後由創作者自己做決定。
+- Cobra CLI 根命令與主要子命令骨架：`init`、`start`、`resume`、`list`、`show`、`export`、`fork`、`delete`、`agents`、`config`、`models`。
+- `woolf start` 可讀取 draft、解析 preset / agents，建立 session，並透過 fake 或 OpenRouter client 執行 orchestrator pipeline。
+- 內建 6 個 Agent role：`strict-editor`、`casual-reader`、`structure-analyst`、`marketing-eye`、`advocate`、`challenger`。
+- 內建 preset：`editorial`、`brainstorm`、`critique`、`review`。
+- `woolf agents list | show | add | delete | validate` 可管理內建與自訂 YAML role。
+- OpenRouter client 支援 Chat Completions SSE 串流、usage 解析、API 錯誤碼映射，以及 429 / 5xx retry。
+- Orchestrator 會依序執行多 Agent，保存每個回覆、usage token、session totals，並在後續 Agent context 中包含前序完整討論。
+- Context builder 會組裝 system prompt、focus areas、response template、draft、session summaries、user interventions、focus range 與 previous discussion。
+- Session store 支援建立、儲存、讀取、續接、fork、刪除與列表。
+- Ingestion 已有 `.md`、`.txt` 與 PDF Phase 1 入口。
 
-預期流程：
+## 快速使用
 
-```bash
-woolf start --draft chapter3.md --preset editorial
+先設定 OpenRouter API key：
+
+```powershell
+$env:OPENROUTER_API_KEY = "sk-or-..."
 ```
 
-啟動後，Woolf 會載入稿件與 Agent preset，進入 TUI 介面，並依照設定的輪次執行多模型審議流水線。
+建立並執行一輪 editorial preset：
 
-## 主要功能規劃
+```powershell
+go run .\cmd\woolf --config .\tmp\config.toml start --draft .\chapter3.md --preset editorial --rounds 1
+```
 
-- 多 Agent 流水線：2 到 6 位 Agent 依序發言，後續 Agent 可參考前序完整內容。
-- 立場標籤：Agent 可對前序觀點標記 `agree`、`disagree`、`extend` 或 `neutral`。
-- 角色系統：內建多種 Agent 角色模板，並支援 YAML 自訂。
-- Preset 組合：針對編輯、腦力激盪、讀者視角等情境快速啟動。
-- TUI 操作：以討論串、輸入區與狀態列組成主要介面，支援鍵盤操作。
-- 串流輸出：透過 OpenRouter SSE 串流即時顯示模型回應。
-- 檔案載入：規劃支援 Markdown、純文字與具文字層的 PDF。
-- Session 管理：自動儲存、續接、瀏覽與匯出審議紀錄。
-- 成本追蹤：即時顯示 token 用量與預估費用。
+列出 Agent：
 
-## 技術方向
+```powershell
+go run .\cmd\woolf --config .\tmp\config.toml agents list
+```
 
-Woolf 預計以 Go 實作，核心模組包含：
+查看單一 Agent：
 
-- `cmd/woolf`：CLI 入口。
-- `internal/cli`：子指令與命令列參數。
-- `internal/tui`：Bubble Tea TUI 介面。
-- `internal/orchestrator`：Agent 流水線排程與狀態機。
-- `internal/agents`：角色、prompt 與 preset 管理。
-- `internal/openrouter`：OpenRouter API client、模型清單與串流處理。
-- `internal/ingestion`：稿件讀取與格式轉換。
-- `internal/session`：Session 持久化、續接與歷史管理。
-- `internal/export`：Markdown 與後續 PDF 匯出。
-- `internal/cost`：token 與費用估算。
-- `internal/config`：TOML 設定檔與環境變數載入。
+```powershell
+go run .\cmd\woolf --config .\tmp\config.toml agents show strict-editor
+```
 
-暫定主要依賴：
+加入自訂 Agent YAML：
 
-- Cobra：CLI 指令框架。
-- Bubble Tea、Lip Gloss、Bubbles：TUI 介面與元件。
-- OpenRouter Chat Completions API：多模型調度。
+```powershell
+go run .\cmd\woolf --config .\tmp\config.toml agents add .\my-agent.yaml
+```
 
-## 目標平台
+## 專案結構
 
-- macOS
-- Linux
-- Windows Terminal
-- WSL
+- `cmd/woolf`：CLI 程式入口。
+- `internal/cli`：Cobra 指令、參數解析與使用者可見錯誤。
+- `internal/tui`：Bubble Tea TUI 骨架、view 與元件。
+- `internal/orchestrator`：Agent pipeline、context builder、intervention 與流程狀態。
+- `internal/agents`：Agent role、preset、YAML 載入與 registry。
+- `internal/openrouter`：OpenRouter API client、SSE 串流、模型列表、rate limit 與錯誤映射。
+- `internal/ingestion`：`.md`、`.txt`、`.pdf` 讀取與轉換入口。
+- `internal/session`：Session schema、store、resume、fork、search 與持久化。
+- `internal/exporter`：Markdown / PDF 匯出骨架。
+- `internal/cost`：token 與費用估算骨架。
+- `internal/config`：TOML 設定、預設值、路徑與環境變數載入。
+- `pkg/pdfparse`：未來公開復用的 PDF parsing 型別或工具。
+
+## 開發與測試
+
+本專案使用 Go 1.22 或更新版本。Windows PowerShell 預設測試命令：
+
+```powershell
+.\scripts\test.ps1
+```
+
+可選檢查：
+
+```powershell
+.\scripts\test.ps1 -Vet
+.\scripts\test.ps1 -Race
+.\scripts\test.ps1 -Coverage
+```
+
+更多測試說明見 [docs/testing.md](docs/testing.md)，Phase 1 進度見 [docs/todo.md](docs/todo.md)，產品規格以 [docs/woolf-spec.md](docs/woolf-spec.md) 為準。
 
 ## 安全原則
 
-- 不硬編 API key、token 或任何敏感資料。
-- OpenRouter API key 應存放於本機設定或環境變數。
-- TUI 與日誌中顯示 API key 時必須遮蔽。
-- 稿件會透過 HTTPS 傳送至 OpenRouter，使用者應自行評估敏感內容風險。
-
-## 專案狀態
-
-目前專案仍在早期規劃與實作前階段。公開 README 僅保留產品方向、架構概念與功能範圍；完整內部規格文件不納入 Git 追蹤。
+- 不硬編 API key、token、密碼或任何敏感資訊。
+- OpenRouter API key 只從環境變數或本機設定讀取。
+- CLI、TUI、log 與 config show 顯示 key 時必須遮蔽。
+- 測試不得呼叫真實 OpenRouter，需使用 fake client、mock transport 或 fixture。
+- Session 可能包含使用者原稿，應只保存在本機 runtime data 目錄。
 
 ## License
 
-WoolfCLI 採用 Apache License 2.0 授權。詳見 [LICENSE](LICENSE)。
+Woolf 使用 Apache License 2.0。詳見 [LICENSE](LICENSE)。

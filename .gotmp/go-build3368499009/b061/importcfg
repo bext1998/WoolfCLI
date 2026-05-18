@@ -1,0 +1,4 @@
+# import config
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b009\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b042\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b044\_pkg_.a

@@ -1,0 +1,12 @@
+# import config
+packagefile crypto=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b072\_pkg_.a
+packagefile crypto/internal/fips140/ed25519=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b162\_pkg_.a
+packagefile crypto/internal/fips140cache=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b153\_pkg_.a
+packagefile crypto/internal/fips140only=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b095\_pkg_.a
+packagefile crypto/internal/rand=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b135\_pkg_.a
+packagefile crypto/rand=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b134\_pkg_.a
+packagefile crypto/subtle=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b097\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile internal/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b060\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a
+packagefile strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b040\_pkg_.a

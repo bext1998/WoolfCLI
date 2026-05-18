@@ -1,0 +1,22 @@
+# import config
+importmap golang.org/x/crypto/cryptobyte=vendor/golang.org/x/crypto/cryptobyte
+importmap golang.org/x/crypto/cryptobyte/asn1=vendor/golang.org/x/crypto/cryptobyte/asn1
+packagefile crypto=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b072\_pkg_.a
+packagefile crypto/ecdh=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b143\_pkg_.a
+packagefile crypto/elliptic=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b149\_pkg_.a
+packagefile crypto/internal/boring=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b074\_pkg_.a
+packagefile crypto/internal/boring/bbig=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b150\_pkg_.a
+packagefile crypto/internal/fips140/ecdsa=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b151\_pkg_.a
+packagefile crypto/internal/fips140/nistec=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b145\_pkg_.a
+packagefile crypto/internal/fips140cache=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b153\_pkg_.a
+packagefile crypto/internal/fips140hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b154\_pkg_.a
+packagefile crypto/internal/fips140only=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b095\_pkg_.a
+packagefile crypto/internal/rand=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b135\_pkg_.a
+packagefile crypto/sha512=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b156\_pkg_.a
+packagefile crypto/subtle=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b097\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile vendor/golang.org/x/crypto/cryptobyte=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b157\_pkg_.a
+packagefile vendor/golang.org/x/crypto/cryptobyte/asn1=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b160\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a
+packagefile math/big=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b138\_pkg_.a
+packagefile math/rand/v2=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b137\_pkg_.a

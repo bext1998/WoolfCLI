@@ -1,0 +1,24 @@
+# import config
+importmap golang.org/x/net/dns/dnsmessage=vendor/golang.org/x/net/dns/dnsmessage
+packagefile cmp=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b036\_pkg_.a
+packagefile context=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b070\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile vendor/golang.org/x/net/dns/dnsmessage=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b114\_pkg_.a
+packagefile internal/bytealg=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b010\_pkg_.a
+packagefile internal/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b060\_pkg_.a
+packagefile internal/nettrace=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b115\_pkg_.a
+packagefile internal/poll=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b063\_pkg_.a
+packagefile internal/singleflight=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b116\_pkg_.a
+packagefile internal/strconv=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b031\_pkg_.a
+packagefile internal/stringslite=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b033\_pkg_.a
+packagefile internal/syscall/windows=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b051\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a
+packagefile io/fs=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b057\_pkg_.a
+packagefile net/netip=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b117\_pkg_.a
+packagefile os=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b049\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b009\_pkg_.a
+packagefile slices=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b047\_pkg_.a
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b042\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b044\_pkg_.a
+packagefile syscall=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b055\_pkg_.a
+packagefile time=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b059\_pkg_.a

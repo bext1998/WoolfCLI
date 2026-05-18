@@ -1,0 +1,13 @@
+# import config
+importmap golang.org/x/crypto/chacha20=vendor/golang.org/x/crypto/chacha20
+importmap golang.org/x/crypto/internal/alias=vendor/golang.org/x/crypto/internal/alias
+importmap golang.org/x/crypto/internal/poly1305=vendor/golang.org/x/crypto/internal/poly1305
+importmap golang.org/x/sys/cpu=vendor/golang.org/x/sys/cpu
+packagefile crypto/cipher=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b075\_pkg_.a
+packagefile crypto/fips140=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b096\_pkg_.a
+packagefile encoding/binary=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b131\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile vendor/golang.org/x/crypto/chacha20=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b171\_pkg_.a
+packagefile vendor/golang.org/x/crypto/internal/alias=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b172\_pkg_.a
+packagefile vendor/golang.org/x/crypto/internal/poly1305=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b173\_pkg_.a
+packagefile vendor/golang.org/x/sys/cpu=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b174\_pkg_.a

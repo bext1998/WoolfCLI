@@ -1,0 +1,8 @@
+# test log
+getenv GOTMPDIR
+open C:\Users\tiger\AppData\Local\Temp\TestLoadUserRoleValidation2173429206\001\custom.yaml
+stat C:\Users\tiger\AppData\Local\Temp\TestLoadUserRoleValidation2173429206\001
+open C:\Users\tiger\AppData\Local\Temp\TestLoadUserRoleValidation2173429206\001
+stat C:\Users\tiger\AppData\Local\Temp\TestLoadUserRoleValidation2173429206\001\custom.yaml
+open C:\Users\tiger\AppData\Local\Temp\TestLoadUserRoleValidation2173429206\001\custom.yaml
+open C:\Users\tiger\AppData\Local\Temp

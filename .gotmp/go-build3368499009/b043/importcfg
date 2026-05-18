@@ -1,0 +1,5 @@
+# import config
+packagefile internal/abi=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b005\_pkg_.a
+packagefile internal/goarch=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b006\_pkg_.a
+packagefile internal/race=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b027\_pkg_.a
+packagefile sync/atomic=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b044\_pkg_.a

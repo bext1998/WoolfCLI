@@ -1,0 +1,18 @@
+# import config
+packagefile crypto=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b072\_pkg_.a
+packagefile crypto/internal/boring=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b074\_pkg_.a
+packagefile crypto/internal/boring/bbig=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b150\_pkg_.a
+packagefile crypto/internal/fips140/bigmod=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b152\_pkg_.a
+packagefile crypto/internal/fips140/rsa=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b180\_pkg_.a
+packagefile crypto/internal/fips140hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b154\_pkg_.a
+packagefile crypto/internal/fips140only=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b095\_pkg_.a
+packagefile crypto/internal/rand=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b135\_pkg_.a
+packagefile crypto/rand=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b134\_pkg_.a
+packagefile crypto/subtle=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b097\_pkg_.a
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile fmt=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b002\_pkg_.a
+packagefile hash=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b073\_pkg_.a
+packagefile internal/godebug=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b060\_pkg_.a
+packagefile io=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b048\_pkg_.a
+packagefile math=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b039\_pkg_.a
+packagefile math/big=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b138\_pkg_.a

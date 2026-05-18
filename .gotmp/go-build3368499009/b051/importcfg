@@ -1,0 +1,9 @@
+# import config
+packagefile errors=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b003\_pkg_.a
+packagefile internal/oserror=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b052\_pkg_.a
+packagefile internal/runtime/syscall/windows=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b030\_pkg_.a
+packagefile internal/syscall/windows/sysdll=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b053\_pkg_.a
+packagefile runtime=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b009\_pkg_.a
+packagefile structs=D:\AgentCoding\WoolfCLI\.gocache\e1\e1c8b0699955246bc744722f8d9f740445be2b81826659b263285851e85188ef-d
+packagefile sync=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b042\_pkg_.a
+packagefile syscall=D:\AgentCoding\WoolfCLI\.gotmp\go-build3368499009\b055\_pkg_.a
