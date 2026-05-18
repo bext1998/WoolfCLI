@@ -1,6 +1,6 @@
 # WoolfCLI Project Brief
 
-更新日期：2026-05-17
+更新日期：2026-05-19
 
 本文件根據目前 repository、`docs/spec.md`、`docs/testing.md`、`README.md` 與現有 Go 程式碼整理。無法由目前檔案直接確認的內容一律標記為「未確認」。
 
@@ -39,6 +39,8 @@ Phase 1 目標以 `docs/spec.md` 第 5 章 Must Have 與第 14.1 節驗收矩陣
 - `internal/tui`：Bubble Tea 相關 app、view、component 檔案。
 - `pkg/pdfparse`：公開 PDF parsing 型別或工具入口。
 
+專案文件目前以 `docs/` 作為狀態文件集中位置；`docs/spec.md` 是最高產品規格來源，`docs/PROJECT_BRIEF.md`、`docs/STATUS.md` 與 `docs/NEXT_ACTIONS.md` 是後續任務交接文件。
+
 ## 目前完成狀態摘要
 
 - CLI 指令面已包含 `init`、`start`、`resume`、`list`、`show`、`export`、`fork`、`delete`、`agents`、`config`、`models`。
@@ -47,6 +49,7 @@ Phase 1 目標以 `docs/spec.md` 第 5 章 Must Have 與第 14.1 節驗收矩陣
 - Session 模組已有 JSON schema、建立、保存、讀取、列表、續接、分叉、刪除與 corrupt JSON 測試。
 - OpenRouter client 已有串流解析、HTTP error mapping、429 retry-after 與 5xx retry 基礎邏輯。
 - Markdown exporter 已能輸出 session metadata、source、agents、rounds、stance、tokens 與 summaries。
+- 規格引用已統一到 `docs/spec.md`，並移除根目錄舊版 `STATUS.md` / `NEXT_ACTIONS.md`，避免狀態文件分叉。
 - TUI、cost tracker、PDF exporter 目前更接近骨架或初步實作，尚未達到 Phase 1 完整驗收。
 - PDF ingestion 是否已符合「具文字層 PDF 基本解析」仍需以 regression fixture 驗證；目前文件應視為未確認。
 
@@ -65,5 +68,4 @@ Phase 1 目標以 `docs/spec.md` 第 5 章 Must Have 與第 14.1 節驗收矩陣
 - PDF ingestion 對真實文字層 PDF 的覆蓋率與 regression fixture 狀態未確認。
 - PDF exporter 是否要進入近期範圍未確認。
 - TUI 應先完成完整互動模式，或先讓 CLI-only pipeline 達到可驗收狀態，需人工決定。
-- `README.md` 目前宣稱專案仍在「早期規劃與實作前階段」，與 repo 已有實作不完全一致；是否同步更新 README 未確認。
 - 是否正式以 `API-001` 到 `API-005` 作為對外 OpenRouter/API error code 契約，需人工決定。

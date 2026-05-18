@@ -1,8 +1,8 @@
 # WoolfCLI 下一步
 
-更新日期：2026-05-17
+更新日期：2026-05-19
 
-本文件只列下一次開工最合理的任務順序。依據目前 repo 狀態，下一步應優先降低規格不確定性，然後補 Phase 1 最大缺口。無法確認的內容標記為「未確認」。
+本文件只列下一次開工最合理的任務順序。依據目前 repo 狀態，規格來源已統一為 `docs/spec.md`，下一步應優先補 Phase 1 最大缺口。無法確認的內容標記為「未確認」。
 
 ## 最合理的下一步
 
@@ -36,12 +36,7 @@
    - 目標：per-agent/per-round/per-session token 與 cost summary，並處理 pricing cache 或「定價可能不準確」提示。
    - 未確認：是否已有可用 OpenRouter pricing fixture 或應先用硬編碼測試資料。
 
-6. 同步 README 狀態。
-   - 範圍：`README.md`。
-   - 目標：把「早期規劃與實作前階段」更新為符合目前 repo 的狀態。
-   - 注意：本次任務限制只更新三份文件，因此 README 先列為後續。
-
-7. 強化測試管線。
+6. 強化測試管線。
    - 範圍：`scripts/test.ps1`、`.github/workflows/go-test.yml`、必要 fixture。
    - 目標：在既有 `go test ./...` / `go vet ./...` 之外，視需要補 race、coverage、PDF regression 的可重現流程。
    - 未確認：race/coverage 是否要成為每次 CI 必跑，或只作為手動/夜間檢查。
@@ -51,8 +46,13 @@
 - 是否正式接受 `API-001`、`API-002`、`API-003`、`API-004`、`API-005` 作為 OpenRouter/API error code 對外契約。
 - 下一個工程焦點要先完成 TUI 可驗收主流程，或先完成 CLI-only pipeline 的 export/cost/ingestion 驗收。
 - PDF export 是否仍維持 Should Have / Phase 2，還是要提前納入近期開發。
-- 是否允許在下一次任務同步更新 README，修正目前「實作前階段」的過期描述。
 - 是否有必要建立固定 PDF regression fixture；若 fixture 可能含版權或敏感內容，需要提供可公開測試樣本。
+
+## 已完成的交接整理
+
+- 規格來源已統一為 `docs/spec.md`。
+- 根目錄舊版 `STATUS.md` / `NEXT_ACTIONS.md` 已移除，後續請使用 `docs/PROJECT_BRIEF.md`、`docs/STATUS.md`、`docs/NEXT_ACTIONS.md`。
+- 最近一次 `.\scripts\test.ps1` 已通過；後續若修改 Go 程式碼，仍需重新執行相稱測試。
 
 ## 暫不建議開始
 
