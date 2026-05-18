@@ -10,6 +10,22 @@ On Windows PowerShell:
 .\scripts\test.ps1
 ```
 
+On Windows, the script sets project-local Go workspace paths when they are not already configured:
+
+- `GOCACHE` defaults to `.gocache`
+- `GOTMPDIR` defaults to `.gotmp`
+
+This keeps test runs independent from the user profile Go build cache, which can fail on some Windows machines because of local permissions. The directories are ignored by Git. If you need a custom cache or temporary directory, set `GOCACHE` or `GOTMPDIR` before running the script; explicit environment variables are preserved.
+
+The script also initializes the PowerShell process to UTF-8 before running tests. This avoids mojibake when reading or printing UTF-8 project files such as `README.md` and `docs/woolf-spec.md` on Windows PowerShell. For ad hoc inspection commands in the same terminal, use:
+
+```powershell
+[Console]::InputEncoding = [System.Text.UTF8Encoding]::new($false)
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+$OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+Get-Content docs/woolf-spec.md -Encoding UTF8
+```
+
 Optional checks:
 
 ```powershell

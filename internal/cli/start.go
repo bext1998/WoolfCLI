@@ -15,6 +15,7 @@ import (
 	"woolf/internal/ingestion"
 	"woolf/internal/orchestrator"
 	"woolf/internal/session"
+	"woolf/internal/tui"
 )
 
 func newStartCommand(app *App) *cobra.Command {
@@ -22,6 +23,7 @@ func newStartCommand(app *App) *cobra.Command {
 	var preset string
 	var agentNames string
 	var rounds int
+	var useTUI bool
 	cmd := &cobra.Command{
 		Use:   "start",
 		Short: "Create a new session",
@@ -73,6 +75,10 @@ func newStartCommand(app *App) *cobra.Command {
 				fmt.Fprintf(cmd.OutOrStdout(), "agents: %s\n", agentNames)
 			}
 			pipeline := orchestrator.Pipeline{Client: app.chatClient(), Store: app.store}
+			if useTUI {
+				sessCopy := sess
+				return tui.Run(pipeline, app.store, &sessCopy, orchestrator.Options{Rounds: rounds, Roles: roles})
+			}
 			events, err := pipeline.Run(context.Background(), &sess, orchestrator.Options{Rounds: rounds, Roles: roles})
 			if err != nil {
 				return err
@@ -104,6 +110,7 @@ func newStartCommand(app *App) *cobra.Command {
 	cmd.Flags().StringVar(&preset, "preset", "", "agent preset")
 	cmd.Flags().StringVar(&agentNames, "agents", "", "comma-separated agent names")
 	cmd.Flags().IntVar(&rounds, "rounds", 0, "discussion rounds")
+	cmd.Flags().BoolVar(&useTUI, "tui", false, "launch interactive TUI")
 	return cmd
 }
 
